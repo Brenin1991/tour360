@@ -52,6 +52,8 @@ window.onload = function () {
     document.getElementById("loader").style.visibility = "hidden";
     document.getElementById("tela-inicio").style.display = "flex";
   }
+
+  
 };
 
 var userAgent = navigator.userAgent;
@@ -472,6 +474,11 @@ function iniciar() {
   document.getElementById("musica").volume = 0.2;
 
   telaInicio.style.display = "none";
+
+  if (/Android/i.test(userAgent)) {
+    document.getElementById("fixed-buttons-div-2").classList.add('androidButtons');
+    document.getElementById("logo-versao").classList.add('androidButtons');
+  }
   
 }
 
