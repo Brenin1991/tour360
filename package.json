@@ -1,0 +1,16 @@
+{
+  "name": "tour-360-aframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@photo-sphere-viewer/core": "^5.4.4",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
+}

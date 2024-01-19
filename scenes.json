@@ -1,0 +1,2237 @@
+{
+    "scenes": [
+        {
+            "modelo": "camera_01",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "1"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_02",
+            "hotspots": [
+                {
+                    "nome": "marcador",
+                    "tipo": "marcador",
+                    "imagem": "marcador"
+                },
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "0"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "2"
+                    }
+                },
+                {
+                    "nome": "hotspot_03",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "9"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_03",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "1"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "16"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_04",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "2"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "4"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "type": "float",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Lins, que era três anos mais velho, convidou Dema para ingressar na sociedade assim que comprou a loja de um tio. A razão social registrada foi Lins Sperotto Ferrão e Irmão. Os dois irmãos inauguraram juntos ‘A Principal’ e ali começaram o seu negócio com mercadorias para o público masculino.  Nos mais de 50 anos que, unidos, administraram a empresa (até o falecimento de Lins em 2005), sempre mantiveram o clima de respeito, companheirismo e irmandade.",
+                        "imagem": "info-imagem-A-PRETO"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_03",
+                    "tipo": "video",
+                    "type": "float",
+                    "imagem": "video",
+                    "video": {
+                        "nome": "video_03",
+                        "video": "03"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_05",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "17"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "5"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Lins, que era três anos mais velho, convidou Dema para ingressar na sociedade assim que comprou a loja de um tio. A razão social registrada foi Lins Sperotto Ferrão e Irmão. Os dois irmãos inauguraram juntos ‘A Principal’ e ali começaram o seu negócio com mercadorias para o público masculino.  Nos mais de 50 anos que, unidos, administraram a empresa (até o falecimento de Lins em 2005), sempre mantiveram o clima de respeito, companheirismo e irmandade.",
+                        "imagem": "info-imagem-A-PRETO"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_03",
+                    "tipo": "video",
+                    "imagem": "video",
+                    "video": {
+                        "nome": "video_03",
+                        "video": "03"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_06",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "4"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "7"
+                    }
+                },
+                {
+                    "nome": "hotspot_03",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Sede Iolanda Ferrão (Porto Alegre)",
+                                "texto": "Atualmente, somando quase 3.500 colaboradores, o grupo está presente em mais de 140 lojas físicas espalhadas pelo Rio Grande do Sul e Santa Catarina, em suas sedes administrativas de Camaquã e Porto Alegre, e uma operação de e-commerce que leva o nome das marcas a todo o Brasil. ‘Vestir o mundo com orgulho’ é o propósito de todos que fazem parte do Grupo Lins Ferrão. Propósito que é colocado em prática a partir dos quatro valores: O cliente é tudo pra nós; Respeitamos todos os compromissos; A gente gosta de gente; Inovamos para evoluir sempre.",
+                                "imagem": "G-01"
+                            },
+                            {
+                                "titulo": "Matriz (Camaquã)",
+                                "texto": "Atualmente, somando quase 3.500 colaboradores, o grupo está presente em mais de 140 lojas físicas espalhadas pelo Rio Grande do Sul e Santa Catarina, em suas sedes administrativas de Camaquã e Porto Alegre, e uma operação de e-commerce que leva o nome das marcas a todo o Brasil. ‘Vestir o mundo com orgulho’ é o propósito de todos que fazem parte do Grupo Lins Ferrão. Propósito que é colocado em prática a partir dos quatro valores: O cliente é tudo pra nós; Respeitamos todos os compromissos; A gente gosta de gente; Inovamos para evoluir sempre.",
+                                "imagem": "G-02"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_03",
+                    "tipo": "video",
+                    "imagem": "video",
+                    "video": {
+                        "nome": "video_03",
+                        "video": "02"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_07",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "5"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "sala",
+                    "imagem": "hotspot_new",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Agora, você está prestes a entrar na sala de Lins Ferrão, onde o empresário dirigiu as Lojas Pompéia. Neste ambiente, estão muitas recordações, conservadas pela família desde 2005 como forma de manter viva a história do patriarca e o seu legado. Nesta sala, Lins e Dema também se reuniam e daqui saíam todas as decisões de comum acordo entre os irmãos. Lins sempre fez questão de manter todos por perto, ensinando através de lições diárias espontâneas e dos treinamentos - os quais fazia sempre questão de liderar. Sua relação com a família, com os funcionários, os processos muito próprios, seus hobbies e paixões faziam dele um homem singular. Seja curioso como Lins. Você é nosso convidado para entrar neste universo particular tão inspirador! ",
+                        "imagem": "info-imagem-B-PRETO"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "porco",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_03",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_03",
+                        "video": "02"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "",
+                                "texto": "Além de Lins, o casal Júlia e Osório Ferrão teve mais onze filhos, entre eles o irmão e futuro sócio, Valdemar Ferrão, conhecido como Dema. Com a perda do pai aos 7 anos, desde cedo Lins ajudou a mãe no sustento da família.",
+                                "imagem": ""
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Aos 12, já trabalhava em uma fazenda durante o dia e em uma venda durante a noite. Iniciava aí a semente da atividade comercial.  ",
+                                "imagem": ""
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Em 1944, chega a Camaquã, convidado por outro tio, também para trabalhar no comércio. No final dos anos 40, ingressa no exército, onde fica por dois anos, período em que aprende muito com a experiência militar.",
+                                "imagem": "b-verde-01"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "O contrato das organizações Lins Ferrão & Cia LTDA foi assinado em 1 de dezembro de 1953. O documento foi elaborado por Lins com base em um curso de contabilidade por correspondência e até hoje é modelo para os contratos da empresa.   ",
+                                "imagem": ""
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Iniciava-se assim o que mais tarde mudaria de nome para Lojas Pompéia. Os irmãos trabalhavam nas tarefas administrativas, além de atender aos clientes. Eles também contavam com a ajuda das irmãs Nena e Alzira. Nessa época, trabalhavam junto a Lins e Dema os sobrinhos Luiz Baptistella e Cláudio Ferrão.",
+                                "imagem": "b-verde-02"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Sua passagem pelo Poder Legislativo Camaquense como vereador, entre 1972 e 1976, foi um projeto de significativa importância para todos os segmentos da comunidade.",
+                                "imagem": ""
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Como pai, Lins foi sempre muito presente e manteve viva a paixão pelo comércio, sempre envolvendo a família nas atividades da empresa.",
+                                "imagem": "b-verde-04"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "",
+                                "imagem": "b-verde-05"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "",
+                                "imagem": "b-verde-06"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "A partir dos anos 80, a 2ª geração da família Ferrão, filhos e filhas de Lins e de Valdemar, começou a se envolver nos negócios, assumindo a direção de departamentos importantes e trazendo inovação.",
+                                "imagem": "b-verde-07"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Lins participou de diversas atividades empresariais e sociais nos anos 90, entre elas: integrou a Associação do Comércio Varejista de Camaquã, o Conselho Fiscal do Sindicato do Comércio Varejista de Camaquã, presidiu a ACIC, fez parte da publicação 'Empresários que Venceram no Rio Grande do Sul', recebeu da Câmara Municipal de Vereadores o título honorífico de Cidadão de Camaquã, foi um dos grandes colaboradores para a compra do terreno onde funciona a Subestação da C.E.E.E, entre outras.",
+                                "imagem": ""
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Nos anos 90, os filhos Carmen, Fernanda e Gustavo já atuavam na empresa.",
+                                "imagem": "b-verde-08"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Avanços tecnológicos, evoluções em conceitos empresariais e outras mudanças marcaram os anos 2000 e Lins Ferrão seguia forte em seu papel de administrador, sempre muito presente quando o assunto era Lojas Pompéia.",
+                                "imagem": "b-verde-09"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_08",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "5"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "8"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Luiz Baptistella",
+                                "texto": "Diretor Financeiro",
+                                "imagem": "galeria-01"
+                            },
+                            {
+                                "titulo": "Ana Luiza Ferrão",
+                                "texto": "Diretora Geral Gang",
+                                "imagem": "galeria-02"
+                            },
+                            {
+                                "titulo": "Ana Paula Ferrão",
+                                "texto": "Diretora de Marketing, E-commerce e CRM",
+                                "imagem": "galeria-03"
+                            },
+                            {
+                                "titulo": "Gustavo Ferrão",
+                                "texto": "Superintendente Administrativo e Financeiro",
+                                "imagem": "galeria-04"
+                            },
+                            {
+                                "titulo": "Carmen Ferrão",
+                                "texto": "Superintendente de Vendas e Marketing",
+                                "imagem": "galeria-05"
+                            },
+                            {
+                                "titulo": "Carlos Ferrão",
+                                "texto": "Superintendente de Produto e Logística",
+                                "imagem": "galeria-06"
+                            },
+                            {
+                                "titulo": "Fernanda Ferrão",
+                                "texto": "Diretora de Desenvolvimento Humano e Presidente do ILF",
+                                "imagem": "galeria-07"
+                            },
+                            {
+                                "titulo": "Eduardo Cunha",
+                                "texto": "Diretor de TI",
+                                "imagem": "galeria-08"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_08",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Sede Iolanda Ferrão (Porto Alegre)",
+                                "texto": "Atualmente, somando quase 3.500 colaboradores, o grupo está presente em mais de 140 lojas físicas espalhadas pelo Rio Grande do Sul e Santa Catarina, em suas sedes administrativas de Camaquã e Porto Alegre, e uma operação de e-commerce que leva o nome das marcas a todo o Brasil. ‘Vestir o mundo com orgulho’ é o propósito de todos que fazem parte do Grupo Lins Ferrão. Propósito que é colocado em prática a partir dos quatro valores: O cliente é tudo pra nós; Respeitamos todos os compromissos; A gente gosta de gente; Inovamos para evoluir sempre.",
+                                "imagem": "G-01"
+                            },
+                            {
+                                "titulo": "Matriz (Camaquã)",
+                                "texto": "Atualmente, somando quase 3.500 colaboradores, o grupo está presente em mais de 140 lojas físicas espalhadas pelo Rio Grande do Sul e Santa Catarina, em suas sedes administrativas de Camaquã e Porto Alegre, e uma operação de e-commerce que leva o nome das marcas a todo o Brasil. ‘Vestir o mundo com orgulho’ é o propósito de todos que fazem parte do Grupo Lins Ferrão. Propósito que é colocado em prática a partir dos quatro valores: O cliente é tudo pra nós; Respeitamos todos os compromissos; A gente gosta de gente; Inovamos para evoluir sempre.",
+                                "imagem": "G-02"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_09",
+                    "tipo": "link",
+                    "imagem": "link",
+                    "link": {
+                        "url": "https://www.gang.com.br/"
+                    }
+                },
+                {
+                    "nome": "info_010",
+                    "tipo": "link",
+                    "imagem": "link",
+                    "link": {
+                        "url": "https://www.lojaspompeia.com/"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_09",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "7"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "9"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_08",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Sede Iolanda Ferrão (Porto Alegre)",
+                                "texto": "Atualmente, somando quase 3.500 colaboradores, o grupo está presente em mais de 140 lojas físicas espalhadas pelo Rio Grande do Sul e Santa Catarina, em suas sedes administrativas de Camaquã e Porto Alegre, e uma operação de e-commerce que leva o nome das marcas a todo o Brasil. ‘Vestir o mundo com orgulho’ é o propósito de todos que fazem parte do Grupo Lins Ferrão. Propósito que é colocado em prática a partir dos quatro valores: O cliente é tudo pra nós; Respeitamos todos os compromissos; A gente gosta de gente; Inovamos para evoluir sempre.",
+                                "imagem": "G-01"
+                            },
+                            {
+                                "titulo": "Matriz (Camaquã)",
+                                "texto": "Atualmente, somando quase 3.500 colaboradores, o grupo está presente em mais de 140 lojas físicas espalhadas pelo Rio Grande do Sul e Santa Catarina, em suas sedes administrativas de Camaquã e Porto Alegre, e uma operação de e-commerce que leva o nome das marcas a todo o Brasil. ‘Vestir o mundo com orgulho’ é o propósito de todos que fazem parte do Grupo Lins Ferrão. Propósito que é colocado em prática a partir dos quatro valores: O cliente é tudo pra nós; Respeitamos todos os compromissos; A gente gosta de gente; Inovamos para evoluir sempre.",
+                                "imagem": "G-02"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_09",
+                    "tipo": "link",
+                    "imagem": "link",
+                    "link": {
+                        "url": "https://www.gang.com.br/"
+                    }
+                },
+                {
+                    "nome": "info_010",
+                    "tipo": "link",
+                    "imagem": "link",
+                    "link": {
+                        "url": "https://www.lojaspompeia.com/"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_010",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "8"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "1"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "",
+                                "texto": "A Gang já lançou uma linha de produtos upcycling feitos a partir de resíduos de jeans (calças e jaquetas), não vendáveis que seriam destinados para o descarte. Foram produzidos e vendidos pela Gang, em tono de 400 mochilas e pochetes reintroduzidos no ciclo de vida dos produtos jeans.  ",
+                                "imagem": "c-verde-01"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Já a Pompéia criou uma marca de tênis exclusiva da rede, realizada em parceria com o Instituto, reutilizando materiais que seriam descartados. O tênis foi o primeiro produto, feito a partir de fibras de antigos uniformes das lojas. Foram 300kg de peças acumuladas durante três anos, que passaram por um processo de desfibramento, sendo transformadas novamente em tecido e usadas na confecção do cabedal, palmilha e partes internas do tênis. Todo o processo é realizado por entidades parceiras do ILF. O tênis conta com três modelos que já estão à venda em lojas selecionadas, e-commerce e APP.",
+                                "imagem": "c-verde-03"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "Além disso, o ILF tem o seu projeto Padel Solidário, iniciativa que promove a inclusão de crianças e adolescentes em situação de vulnerabilidade social, possibilitando o seu desenvolvimento, de forma integral, através da prática esportiva do padel. ",
+                                "imagem": "c-verde-04"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "São ministradas aulas teóricas e práticas, além de ensinamentos sobre comportamento, trabalho em equipe, comportamento, comprometimento, assiduidade, entre outros, com a finalidade de agregar boas atitudes de convívio, tanto durante a atividade como para vida de cada criança. O projeto beneficia, hoje, mais de 100 crianças em todo o estado do RS. O Instituto Lins Ferrão mantém o projeto em parceria com prefeituras, instituições sociais e quadras de Padel.",
+                                "imagem": ""
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_08",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "porco",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_011",
+            "hotspots": [
+                {
+                    "nome": "info_01",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Registro da marca",
+                                "texto": "Lins também era comprador da Pompéia e viajava muito à capital paulista para adquirir artigos para a loja. Em uma de suas viagens, viu um item da São Paulo Alpargatas, detentora das Havaianas, com o nome Pompéia. Ele, por ser um homem religioso, identificou Pompéia como um nome bíblico e o achou ideal pra ser adotado para a nova loja. Até então, a loja ainda se chamava ‘A principal’. Assim, nos anos 80, Lins enviou uma carta à Alpargatas, pedindo autorização para utilização do nome. A empresa retornou cedendo os direitos de uso (foto 1). Em 1985, a marca Lojas Pompéia foi oficialmente registrada no Instituto Nacional da Propriedade Intelectual (foto 2).",
+                                "imagem": "g1"
+                            },
+                            {
+                                "titulo": "Registro da marca",
+                                "texto": "Lins também era comprador da Pompéia e viajava muito à capital paulista para adquirir artigos para a loja. Em uma de suas viagens, viu um item da São Paulo Alpargatas, detentora das Havaianas, com o nome Pompéia. Ele, por ser um homem religioso, identificou Pompéia como um nome bíblico e o achou ideal pra ser adotado para a nova loja. Até então, a loja ainda se chamava ‘A principal’. Assim, nos anos 80, Lins enviou uma carta à Alpargatas, pedindo autorização para utilização do nome. A empresa retornou cedendo os direitos de uso (foto 1). Em 1985, a marca Lojas Pompéia foi oficialmente registrada no Instituto Nacional da Propriedade Intelectual (foto 2).",
+                                "imagem": "g2"
+                            },
+                            {
+                                "titulo": "Registro da marca",
+                                "texto": "Lins também era comprador da Pompéia e viajava muito à capital paulista para adquirir artigos para a loja. Em uma de suas viagens, viu um item da São Paulo Alpargatas, detentora das Havaianas, com o nome Pompéia. Ele, por ser um homem religioso, identificou Pompéia como um nome bíblico e o achou ideal pra ser adotado para a nova loja. Até então, a loja ainda se chamava ‘A principal’. Assim, nos anos 80, Lins enviou uma carta à Alpargatas, pedindo autorização para utilização do nome. A empresa retornou cedendo os direitos de uso (foto 1). Em 1985, a marca Lojas Pompéia foi oficialmente registrada no Instituto Nacional da Propriedade Intelectual (foto 2).",
+                                "imagem": "g3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Pensando em expansão",
+                                "texto": "Lins tinha o hábito de listar tarefas a serem cumpridas e ideias para o futuro. Em um dos seus cadernos, consta a observação ‘Gang’. Prova de que o empresário estava de olho em redes do mercado e pensava em uma futura expansão da marca. O público Gang na época era um desafio para Pompéia, que já tinha como clientes os públicos masculino e feminino, mas os jovens, compradores da Gang, ainda eram um desafio que estava no radar de Lins. Em 2013, a Pompéia adquire a Gang, formando assim o grupo Lins Ferrão. ",
+                                "imagem": "d1"
+                            },
+                            {
+                                "titulo": "",
+                                "texto": "",
+                                "imagem": "d2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Primeiro contrato social da Pompéia",
+                                "texto": "A sociedade foi registrada com a razão social Lins Sperotto Ferrão & Irmão e se destinava ao comércio de ‘artigos para homens e o que mais convier.’O negócio foi firmado em janeiro de 1954, um mês após a abertura oficial da loja ‘A principal’. O certificado do contrato social foi emitido em 18 de fevereiro de 1954.",
+                                "imagem": "c1"
+                            },
+                            {
+                                "titulo": "Primeiro contrato social da Pompéia",
+                                "texto": "A sociedade foi registrada com a razão social Lins Sperotto Ferrão & Irmão e se destinava ao comércio de ‘artigos para homens e o que mais convier.’O negócio foi firmado em janeiro de 1954, um mês após a abertura oficial da loja ‘A principal’. O certificado do contrato social foi emitido em 18 de fevereiro de 1954.",
+                                "imagem": "c2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "sala-lins_00",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "sala-lins_01",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "10"
+                    }
+                },
+                {
+                    "nome": "sala-lins_02",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "sala-lins_03",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "12"
+                    }
+                },
+                {
+                    "nome": "sala-lins_04",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "13"
+                    }
+                },
+                {
+                    "nome": "sala-lins_05",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "14"
+                    }
+                },
+                {
+                    "nome": "sala-lins_06",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "15"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_012",
+            "hotspots": [
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "titulo": "A cada volta, uma pedra",
+                        "texto": "Amante dos esportes, Lins fazia caminhadas todos os dias. Ele e Valdemar completavam dez voltas em torno do prédio do Centro de Distribuição da Pompéia. Eles faziam as voltas em sentido contrário. E, para contar as voltas, Lins tinha o hábito de juntar uma pedrinha a cada volta, colocando em um local específico.",
+                        "imagem": "j"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Os chapéus",
+                                "texto": "Para se proteger durante as caminhadas diárias ao redor do CD, Lins tinha diversos chapéus: um chapéu de abas, um chapéu estilo viseira e uma boina, para os dias de frios.",
+                                "imagem": "k1"
+                            },
+                            {
+                                "titulo": "Os chapéus",
+                                "texto": "Para se proteger durante as caminhadas diárias ao redor do CD, Lins tinha diversos chapéus: um chapéu de abas, um chapéu estilo viseira e uma boina, para os dias de frios.",
+                                "imagem": "k2"
+                            },
+                            {
+                                "titulo": "Os chapéus",
+                                "texto": "Para se proteger durante as caminhadas diárias ao redor do CD, Lins tinha diversos chapéus: um chapéu de abas, um chapéu estilo viseira e uma boina, para os dias de frios.",
+                                "imagem": "k3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "titulo": "Busca por conhecimento",
+                        "texto": "Os irmãos Lins e Valdemar buscavam conhecimento continuamente. Juntos, eles fizeram um curso de Administração de Empresas à distância, via Correio, oferecido pelo Instituto Universal Brasileiro.",
+                        "imagem": "l"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "titulo": "Divulgação e incentivo à educação",
+                        "texto": "Lins criou uma forma inovadora e educativa para divulgar a marca Pompéia: cadernos que eram distribuídos para a população das cidades onde a rede possuía filiais. Um carro da empresa circulava pelos locais anunciava a distribuição em um alto falante. Uma forma de fazer propaganda e de incentivar a educação.",
+                        "imagem": "b"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Circulares administrativas",
+                                "texto": "As regras de conduta e atendimento da empresa também eram escritas por Lins. Ele redigia a próprio punho as orientações e diretrizes (foto 1), que depois eram transcritas por sua secretária, Rosita. Após a finalização, as normas eram distribuídas às filiais em pastas fichário (foto 2). Cada nova regra era enviada para ser incluída na pasta das circulares de cada loja.",
+                                "imagem": "e1"
+                            },
+                            {
+                                "titulo": "Circulares administrativas",
+                                "texto": "As regras de conduta e atendimento da empresa também eram escritas por Lins. Ele redigia a próprio punho as orientações e diretrizes (foto 1), que depois eram transcritas por sua secretária, Rosita. Após a finalização, as normas eram distribuídas às filiais em pastas fichário (foto 2). Cada nova regra era enviada para ser incluída na pasta das circulares de cada loja.",
+                                "imagem": "e2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "titulo": "A escolha do laranja",
+                        "texto": "Lins queria criar uma identidade forte, assim como o nome, Pompéia. Ele, então, começou a buscar cores que chamassem a atenção. Foi testando diferentes opções até que chegou ao laranja, que, na época, não era muito utilizado. Ele achou a cor marcante e chamativa e quando inaugurou a quarta filial da rede, na cidade de Rio Grande, resolveu pintar a loja nessa cor. Em pouco tempo, o laranja se tornou a cor da Pompéia, sendo reconhecida pelos clientes como marca registrada.",
+                        "imagem": "h"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Comunicação interna e motivação",
+                                "texto": "Lins era muito preocupado com a área de vendas e com o incentivo aos vendedores. Assim, ele criou diferentes formas para motivar as equipes. Criava materiais internos, como quadros, cartazes, folders e cartões, com frases motivacionais para engajar os times e reforçar o que sempre foi a essência da Pompéia: um atendimento diferenciado. Era uma forma dele de passar para o público interno, para o seu cliente interno, mais um incentivo para as vendas e os valores que uniam a todos.",
+                                "imagem": "i1"
+                            },
+                            {
+                                "titulo": "Comunicação interna e motivação",
+                                "texto": "Lins era muito preocupado com a área de vendas e com o incentivo aos vendedores. Assim, ele criou diferentes formas para motivar as equipes. Criava materiais internos, como quadros, cartazes, folders e cartões, com frases motivacionais para engajar os times e reforçar o que sempre foi a essência da Pompéia: um atendimento diferenciado. Era uma forma dele de passar para o público interno, para o seu cliente interno, mais um incentivo para as vendas e os valores que uniam a todos.",
+                                "imagem": "i2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "sala-lins_00",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "sala-lins_01",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "10"
+                    }
+                },
+                {
+                    "nome": "sala-lins_02",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "sala-lins_03",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "12"
+                    }
+                },
+                {
+                    "nome": "sala-lins_04",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "13"
+                    }
+                },
+                {
+                    "nome": "sala-lins_05",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "14"
+                    }
+                },
+                {
+                    "nome": "sala-lins_06",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "15"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_013",
+            "hotspots": [
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "titulo": "Falecimento",
+                        "texto": "No dia 6 de outubro de 2005, Lins faleceu de embolia pulmonar, enquanto fazia a sua habitual caminhada no pátio da sede da empresa. Sua morte causou grande comoção na sociedade Camaquense.",
+                        "imagem": "n"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Homenagem 50 anos",
+                                "texto": "Uma gravata foi o primeiro item vendido pela Pompéia, em 1953. Quando a marca completou 50 anos, em 2003, os integrantes da 2ª geração da família, filhos e sobrinhos de Lins e Valdemar, fizeram uma homenagem para os fundadores, com uma escultura de gravata. Na ocasião, Dona Iolanda, esposa de Lins, também foi homenageada.",
+                                "imagem": "m1"
+                            },
+                            {
+                                "titulo": "Homenagem 50 anos",
+                                "texto": "Uma gravata foi o primeiro item vendido pela Pompéia, em 1953. Quando a marca completou 50 anos, em 2003, os integrantes da 2ª geração da família, filhos e sobrinhos de Lins e Valdemar, fizeram uma homenagem para os fundadores, com uma escultura de gravata. Na ocasião, Dona Iolanda, esposa de Lins, também foi homenageada.",
+                                "imagem": "m2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "sala-lins_00",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "sala-lins_01",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "10"
+                    }
+                },
+                {
+                    "nome": "sala-lins_02",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "sala-lins_03",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "12"
+                    }
+                },
+                {
+                    "nome": "sala-lins_04",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "13"
+                    }
+                },
+                {
+                    "nome": "sala-lins_05",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "14"
+                    }
+                },
+                {
+                    "nome": "sala-lins_06",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "15"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_014",
+            "hotspots": [
+                {
+                    "nome": "info_01",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Parceria de uma vida",
+                                "texto": "A parceria e o companheirismo dos dois irmãos marcou a trajetória de Lins e Valdemar Ferrão.",
+                                "imagem": "f1"
+                            },
+                            {
+                                "titulo": "Parceria de uma vida",
+                                "texto": "A parceria e o companheirismo dos dois irmãos marcou a trajetória de Lins e Valdemar Ferrão.",
+                                "imagem": "f2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "sala-lins_00",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "sala-lins_01",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "10"
+                    }
+                },
+                {
+                    "nome": "sala-lins_02",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "sala-lins_03",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "12"
+                    }
+                },
+                {
+                    "nome": "sala-lins_04",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "13"
+                    }
+                },
+                {
+                    "nome": "sala-lins_05",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "14"
+                    }
+                },
+                {
+                    "nome": "sala-lins_06",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "15"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_015",
+            "hotspots": [
+                {
+                    "nome": "info_01",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Homenagem 50 anos",
+                                "texto": "Uma gravata foi o primeiro item vendido pela Pompéia, em 1953. Quando a marca completou 50 anos, em 2003, os integrantes da 2ª geração da família, filhos e sobrinhos de Lins e Valdemar, fizeram uma homenagem para os fundadores, com uma escultura de gravata. Na ocasião, Dona Iolanda, esposa de Lins, também foi homenageada.",
+                                "imagem": "m1"
+                            },
+                            {
+                                "titulo": "Homenagem 50 anos",
+                                "texto": "Uma gravata foi o primeiro item vendido pela Pompéia, em 1953. Quando a marca completou 50 anos, em 2003, os integrantes da 2ª geração da família, filhos e sobrinhos de Lins e Valdemar, fizeram uma homenagem para os fundadores, com uma escultura de gravata. Na ocasião, Dona Iolanda, esposa de Lins, também foi homenageada.",
+                                "imagem": "m2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "titulo": "Falecimento",
+                        "texto": "No dia 6 de outubro de 2005, Lins faleceu de embolia pulmonar, enquanto fazia a sua habitual caminhada no pátio da sede da empresa. Sua morte causou grande comoção na sociedade Camaquense.",
+                        "imagem": "n"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "A sala e todos os itens nela presentes foram mantidos cuidadosamente intactos pela família desde 2005 (data de sua partida), com o intuito de oferecer esse espaço ao público.",
+                        "imagem": "a1",
+                        "titulo": "Lins Ferrão em sua mesa de trabalho"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Os chapéus",
+                                "texto": "Para se proteger durante as caminhadas diárias ao redor do CD, Lins tinha diversos chapéus: um chapéu de abas, um chapéu estilo viseira e uma boina, para os dias de frios.",
+                                "imagem": "k1"
+                            },
+                            {
+                                "titulo": "Os chapéus",
+                                "texto": "Para se proteger durante as caminhadas diárias ao redor do CD, Lins tinha diversos chapéus: um chapéu de abas, um chapéu estilo viseira e uma boina, para os dias de frios.",
+                                "imagem": "k2"
+                            },
+                            {
+                                "titulo": "Os chapéus",
+                                "texto": "Para se proteger durante as caminhadas diárias ao redor do CD, Lins tinha diversos chapéus: um chapéu de abas, um chapéu estilo viseira e uma boina, para os dias de frios.",
+                                "imagem": "k3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Parceria de uma vida",
+                                "texto": "A parceria e o companheirismo dos dois irmãos marcou a trajetória de Lins e Valdemar Ferrão.",
+                                "imagem": "f1"
+                            },
+                            {
+                                "titulo": "Parceria de uma vida",
+                                "texto": "A parceria e o companheirismo dos dois irmãos marcou a trajetória de Lins e Valdemar Ferrão.",
+                                "imagem": "f2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "sala-lins_00",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "sala-lins_01",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "10"
+                    }
+                },
+                {
+                    "nome": "sala-lins_02",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "sala-lins_03",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "12"
+                    }
+                },
+                {
+                    "nome": "sala-lins_04",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "13"
+                    }
+                },
+                {
+                    "nome": "sala-lins_05",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "14"
+                    }
+                },
+                {
+                    "nome": "sala-lins_06",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "15"
+                    }
+                }
+            ]
+        },
+        {
+            "modelo": "camera_016",
+            "hotspots": [
+                {
+                    "nome": "info_01",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Registro da marca",
+                                "texto": "Lins também era comprador da Pompéia e viajava muito à capital paulista para adquirir artigos para a loja. Em uma de suas viagens, viu um item da São Paulo Alpargatas, detentora das Havaianas, com o nome Pompéia. Ele, por ser um homem religioso, identificou Pompéia como um nome bíblico e o achou ideal pra ser adotado para a nova loja. Até então, a loja ainda se chamava ‘A principal’. Assim, nos anos 80, Lins enviou uma carta à Alpargatas, pedindo autorização para utilização do nome. A empresa retornou cedendo os direitos de uso (foto 1). Em 1985, a marca Lojas Pompéia foi oficialmente registrada no Instituto Nacional da Propriedade Intelectual (foto 2).",
+                                "imagem": "g1"
+                            },
+                            {
+                                "titulo": "Registro da marca",
+                                "texto": "Lins também era comprador da Pompéia e viajava muito à capital paulista para adquirir artigos para a loja. Em uma de suas viagens, viu um item da São Paulo Alpargatas, detentora das Havaianas, com o nome Pompéia. Ele, por ser um homem religioso, identificou Pompéia como um nome bíblico e o achou ideal pra ser adotado para a nova loja. Até então, a loja ainda se chamava ‘A principal’. Assim, nos anos 80, Lins enviou uma carta à Alpargatas, pedindo autorização para utilização do nome. A empresa retornou cedendo os direitos de uso (foto 1). Em 1985, a marca Lojas Pompéia foi oficialmente registrada no Instituto Nacional da Propriedade Intelectual (foto 2).",
+                                "imagem": "g2"
+                            },
+                            {
+                                "titulo": "Registro da marca",
+                                "texto": "Lins também era comprador da Pompéia e viajava muito à capital paulista para adquirir artigos para a loja. Em uma de suas viagens, viu um item da São Paulo Alpargatas, detentora das Havaianas, com o nome Pompéia. Ele, por ser um homem religioso, identificou Pompéia como um nome bíblico e o achou ideal pra ser adotado para a nova loja. Até então, a loja ainda se chamava ‘A principal’. Assim, nos anos 80, Lins enviou uma carta à Alpargatas, pedindo autorização para utilização do nome. A empresa retornou cedendo os direitos de uso (foto 1). Em 1985, a marca Lojas Pompéia foi oficialmente registrada no Instituto Nacional da Propriedade Intelectual (foto 2).",
+                                "imagem": "g3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "galeria",
+                    "imagem": "info",
+                    "galeria": {
+                        "imagens": [
+                            {
+                                "titulo": "Primeiro contrato social da Pompéia",
+                                "texto": "A sociedade foi registrada com a razão social Lins Sperotto Ferrão & Irmão e se destinava ao comércio de ‘artigos para homens e o que mais convier.’O negócio foi firmado em janeiro de 1954, um mês após a abertura oficial da loja ‘A principal’. O certificado do contrato social foi emitido em 18 de fevereiro de 1954.",
+                                "imagem": "c1"
+                            },
+                            {
+                                "titulo": "Primeiro contrato social da Pompéia",
+                                "texto": "A sociedade foi registrada com a razão social Lins Sperotto Ferrão & Irmão e se destinava ao comércio de ‘artigos para homens e o que mais convier.’O negócio foi firmado em janeiro de 1954, um mês após a abertura oficial da loja ‘A principal’. O certificado do contrato social foi emitido em 18 de fevereiro de 1954.",
+                                "imagem": "c2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "sala-lins_00",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "6"
+                    }
+                },
+                {
+                    "nome": "sala-lins_01",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "10"
+                    }
+                },
+                {
+                    "nome": "sala-lins_02",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "11"
+                    }
+                },
+                {
+                    "nome": "sala-lins_03",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "12"
+                    }
+                },
+                {
+                    "nome": "sala-lins_04",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "13"
+                    }
+                },
+                {
+                    "nome": "sala-lins_05",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "14"
+                    }
+                },
+                {
+                    "nome": "sala-lins_06",
+                    "tipo": "sala-lins",
+                    "imagem": "olho",
+                    "proximaCena": {
+                        "cena": "15"
+                    }
+                }
+            ]
+        },{
+            "modelo": "NEW_camera_12",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "2"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "17"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "type": "float",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Lins, que era três anos mais velho, convidou Dema para ingressar na sociedade assim que comprou a loja de um tio. A razão social registrada foi Lins Sperotto Ferrão e Irmão. Os dois irmãos inauguraram juntos ‘A Principal’ e ali começaram o seu negócio com mercadorias para o público masculino.  Nos mais de 50 anos que, unidos, administraram a empresa (até o falecimento de Lins em 2005), sempre mantiveram o clima de respeito, companheirismo e irmandade.",
+                        "imagem": "info-imagem-A-PRETO"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_03",
+                    "tipo": "video",
+                    "type": "float",
+                    "imagem": "video",
+                    "video": {
+                        "nome": "video_03",
+                        "video": "03"
+                    }
+                }
+            ]
+        },{
+            "modelo": "NEW_camera_13",
+            "hotspots": [
+                {
+                    "nome": "hotspot_01",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "16"
+                    }
+                },
+                {
+                    "nome": "hotspot_02",
+                    "tipo": "cena",
+                    "imagem": "hotspot",
+                    "proximaCena": {
+                        "cena": "4"
+                    }
+                },
+                {
+                    "nome": "info_01",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Valorizamos e reconhecemos as nossas pessoas. Vestimos afeto e respeito com os colaboradores, nossa comunidade, clientes e parceiros. ",
+                        "imagem": "C"
+                    }
+                },
+                {
+                    "nome": "info_02",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Buscamos crescer dia a dia para inovar e vestir nosso mundo com os melhores resultados. ",
+                        "imagem": "D"
+                    }
+                },
+                {
+                    "nome": "info_03",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Mais do que um sentimento que nos une. É o nosso propósito como grupo, nossa razão de existir.",
+                        "imagem": "B"
+                    }
+                },
+                {
+                    "nome": "info_04",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "urso",
+                        "imagem": "info-imagem-01"
+                    }
+                },
+                {
+                    "nome": "info_05",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Vestir de superação as expectativas dos nossos clientes é a razão maior da nossa existência.  ",
+                        "imagem": "E"
+                    }
+                },
+                {
+                    "nome": "info_06",
+                    "tipo": "info",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Somos éticos e respeitosos, vestir responsabilidade é a base do nosso jeito de ser.  ",
+                        "imagem": "F"
+                    }
+                },
+                {
+                    "nome": "info_07",
+                    "tipo": "info",
+                    "type": "float",
+                    "imagem": "info",
+                    "info": {
+                        "texto": "Lins, que era três anos mais velho, convidou Dema para ingressar na sociedade assim que comprou a loja de um tio. A razão social registrada foi Lins Sperotto Ferrão e Irmão. Os dois irmãos inauguraram juntos ‘A Principal’ e ali começaram o seu negócio com mercadorias para o público masculino.  Nos mais de 50 anos que, unidos, administraram a empresa (até o falecimento de Lins em 2005), sempre mantiveram o clima de respeito, companheirismo e irmandade.",
+                        "imagem": "info-imagem-A-PRETO"
+                    }
+                },
+                {
+                    "nome": "video_btn_01",
+                    "tipo": "video-static",
+                    
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_01",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_02",
+                    "tipo": "video-static",
+                    "imagem": "audio",
+                    "video": {
+                        "nome": "video_02",
+                        "video": "01"
+                    }
+                },
+                {
+                    "nome": "video_btn_03",
+                    "tipo": "video",
+                    "type": "float",
+                    "imagem": "video",
+                    "video": {
+                        "nome": "video_03",
+                        "video": "03"
+                    }
+                }
+            ]
+        }
+    ]
+}

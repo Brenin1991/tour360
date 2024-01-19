@@ -1,0 +1,1311 @@
+@font-face {
+    font-family: 'Raleway-Variable';
+    src: url('fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    /* O caminho '../fonts/SuaFonte.ttf' referencia a pasta 'fonts' */
+    /* Adicione outros formatos de fonte e configurações conforme necessário */
+}
+
+body {
+    font-family: 'Raleway-Variable', sans-serif;
+    /* Usando a fonte recém-definida */
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+    user-select: none;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.videoPlayButton {
+    background-color: transparent;
+    background-image: url('../assets/audio-off.png');
+    background-size: cover;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    pointer-events: auto;
+    border: none;
+    top: 3%;
+    z-index: 3;
+}
+
+.closeButton {
+    position: absolute;
+    height: 20px;
+    top: 3%;
+    right: 3%;
+}
+
+.a-dialog-allow-button {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 20px;
+    border-color: #ffffff;
+    font-family: 'Raleway-Variable';
+    font-weight: 600;
+  }
+  
+  .a-dialog-deny-button {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 20px;
+    border-color: #ffffff;
+    font-family: 'Raleway-Variable';
+    font-weight: 600;
+  }
+  
+  .a-dialog {
+     background-color: rgb(36, 36, 36);
+     border-radius: 20px;
+     color: #ffffff;
+     font-family: 'Raleway-Variable';
+     font-weight: 200;
+   }
+   .a-loader-title {
+    color: rgb(0, 0, 0);
+    }
+
+    .a-loader {
+        color: rgb(0, 0, 0);
+        }
+  
+.fixed-buttons-2 {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    left: 10px;
+    }
+
+#fixed-buttons-div {
+    display: none;
+}
+
+#carregando-galeria {
+    top: 50%;
+    position: fixed;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#carregando-popup {
+    top: 50%;
+    position: fixed;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+#aframeScene {
+    width: 100vw;
+    height: 100vh;
+}
+
+#sobreposicao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    /* Para permitir interação com o conteúdo A-Frame */
+    z-index: 999;
+}
+
+#container {
+    position: relative;
+}
+
+.closePopupDiv {
+    margin: inherit;
+    padding: inherit;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
+}
+
+a-scene {
+    width: 100vw;
+    height: 100vh;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#infoMusica {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.678);
+    text-align: left;
+    align-items: center;
+
+}
+
+#infoMusicaTexto {
+    margin-top: 8%;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#popup-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    pointer-events: none;
+}
+
+#galeria {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#tela-tutorial {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+    pointer-events: auto;
+}
+
+#tela-tutorial-2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+    pointer-events: auto;
+}
+
+#tela-inicio {
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#botaoTocarMutar {
+    background-color: transparent;
+    background-image: url('../assets/musica-on.png');
+    background-size: cover;
+}
+
+#botaoInfoMusica {
+    background-color: transparent;
+    background-image: url('../assets/informacao-hover.png');
+    background-size: cover;
+}
+
+#botaoGiro {
+    background-color: transparent;
+    background-image: url('../assets/GIRO-desativar.png');
+    background-size: cover;
+    z-index: 3;
+}
+
+#botaoAjuda {
+    background-color: transparent;
+    background-image: url('../assets/ajuda.png');
+    background-size: cover;
+}
+
+#botaoAjuda:hover {
+    background-color: transparent;
+    background-image: url('../assets/ajuda-hover.png');
+    background-size: cover;
+}
+
+.btn-direito {
+    z-index: 3;
+}
+
+.btn-esquerdo {
+    z-index: 3;
+}
+
+#base-galeria {
+    z-index: 2;
+}
+
+#galeria-video {
+    z-index: 2;
+}
+
+#popup-overlay {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 80vw;
+    height: 80vh;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+}
+
+#popup-img {
+    display: block;
+    z-index: 2;
+}
+
+#texto {
+    z-index: 2;
+    width: 40vw;
+    text-align: center;
+}
+
+/* Exemplo de estilização para os elementos de texto */
+#galeria-titulo {
+    /* Estilos para o título conforme necessário */
+}
+
+#galeria-texto {
+    font-weight: 500;
+}
+
+#popup-texto {
+    font-weight: 500;
+    z-index: 2;
+}
+
+#galeria-img {
+    object-fit: cover;
+    z-index: 2;
+}
+
+
+.fechar {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .closeButton {
+        position: absolute;
+        height: 20px;
+        top: 3%;
+        right: 5%;
+    }
+
+    .fixar-img {
+        position: fixed;
+        margin-left: 0;
+        margin-left: 0;
+    }
+
+    .fixar-texto {
+        position: fixed;
+        margin-left: 0;
+        margin-left: 0;
+        top: 50%;
+    }
+
+    #galeria-img {
+        top: 4%;
+    }
+
+    #texto {
+        width: 70vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .openTexto {
+        margin-top: 0%;
+    }
+
+    .closeTexto {
+        margin-top: 0%;
+    }
+
+
+
+    #popup {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        width: 90vw;
+        height: 75vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+    }
+
+    #popup-overlay {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 100vw;
+        height: 100vh;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+    }
+
+    #popup-img {
+        display: block;
+    }
+
+    .popup-img-horizontal {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-top: 8%;
+    }
+
+    .popup-img-vertical {
+        display: block;
+        height: 60%;
+        width: auto;
+        margin-top: 8%;
+    }
+
+    #popup-overlay-img {
+        display: block;
+        top: 50%;
+    }
+
+    .overlay-vertical {
+        width: 95%;
+    }
+
+    .overlay-horizontal {
+        width: 90%;
+    }
+
+    #popup-texto {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 5%;
+        font-size: 13px;
+    }
+
+    .botao-popup {
+        background-color: #000000;
+        color: #ffffff;
+        height: 20px;
+        width: 100px;
+        font-weight: bold;
+        font-size: 11PX;
+        border: none;
+        text-align: center;
+    }
+
+    .oculto {
+        display: none;
+    }
+
+    #galeria {
+        display: none;
+        background-color: rgb(255, 255, 255);
+        width: 90vw;
+        height: 75vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+    }
+
+    .galeria-img-horizontal {
+        display: block;
+        height: 30%;
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+
+    .galeria-img-vertical {
+        margin-top: 8%;
+        display: flex;
+        height: 40%;
+    }
+
+    #galeria-video {
+        display: block;
+        height: 30%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    #galeria-texto {
+        margin-top: 8%;
+        font-size: 13px;
+    }
+
+    #galeria-titulo {
+        margin-top: 8%;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #popup-titulo {
+        padding-top: 10%;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .horizontal {
+        padding-left: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vertical {
+        padding-left: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tela-inicio {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../assets/UI/inicio/background-inicio.png');
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 5px;
+        top: 50vh;
+        left: 50vw;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        pointer-events: auto;
+    }
+
+    #logo {
+        display: block;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    #tela-tutorial {
+        display: none;
+        width: 90vw;
+        height: 85vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 100px;
+        pointer-events: auto;
+    }
+
+    #tela-tutorial-2 {
+        display: none;
+        width: 90vw;
+        height: 85vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 100px;
+        pointer-events: auto;
+    }
+
+    #texto-tutorial {
+        margin-top: 10%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    #texto-intro {
+        padding-left: 8%;
+        padding-right: 8%;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+
+    #texto-intro {
+        margin-top: 3%;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    #clique-tutorial {
+        margin-top: 10%;
+        width: 30%;
+    }
+
+    #icones-tutorial {
+        margin-top: 10%;
+    }
+
+    #icones-tutorial img {
+        width: 25%;
+        /* Ajuste o tamanho conforme necessário */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        margin-left: 2%;
+        /* Espaçamento entre as imagens */
+        margin-right: 2%;
+    }
+
+
+    #logo-loja {
+        height: 50px;
+    }
+
+    #versao {
+        position: absolute;
+        bottom: 20px;
+        /* Define a distância do fundo */
+        left: 10px;
+        /* Define a distância da esquerda */
+        color: #ffffff;
+        /* Cor do texto */
+    }
+
+    .fixed-buttons {
+        position: absolute;
+        top: 1%;
+        display: flex;
+        left: 1%;
+      }
+
+      .fixed-buttons-2 {
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        left: 10px;
+      }
+
+      #logo-versao {
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+    }
+
+    #botaoTocarMutar {
+        width: 120px;
+        height: 60px;
+    }
+
+    #botaoInfoMusica {
+        width: 60px;
+        height: 60px;
+        margin-left: 8px; /* Espaço entre os botões */
+    }
+
+    #botaoGiro {
+        width: 200px;
+        height: 60px;
+        margin-left: 8px; /* Espaço entre os botões */
+    }
+
+    #botaoAjuda {
+        width: 60px;
+        height: 60px;
+        margin-left: 8px; /* Espaço entre os botões */
+    }
+
+    #infoMusica {
+        margin-left: 5%;
+        display: none;
+        box-shadow: 0 0 10px rgba(71, 71, 71, 0.2);
+        border-radius: 10px;
+        width: 170px;
+        height: 100px;
+        margin-top: 35%;
+        text-align: left;
+    }
+
+    #infoMusicaTexto {
+        margin-top: 7%;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .btn-direito {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        width: 19px;
+        /* Largura do ícone */
+        height: 33px;
+        /* Altura do ícone */
+        background-image: url('../assets/UI/seta.png');
+        /* Caminho para sua imagem de ícone */
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .btn-esquerdo {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 19px;
+        /* Largura do ícone */
+        height: 33px;
+        /* Altura do ícone */
+        background-image: url('../assets/UI/seta.png');
+        /* Caminho para sua imagem de ícone */
+        background-size: cover;
+        cursor: pointer;
+        transform: rotate(180deg);
+    }
+
+    #tela-tutorial {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 90vw;
+        height: 85vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 8%;
+        background-color: rgba(255, 255, 255, 1);
+        pointer-events: auto;
+    }
+
+    #tela-tutorial-2 {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 90vw;
+        height: 85vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 8%;
+        background-color: rgba(255, 255, 255, 1);
+        pointer-events: auto;
+    }
+
+    #logo-tutorial {
+        margin-top: 10%;
+        max-width: 80%;
+
+    }
+
+    #logo-tutorial-2 {
+        margin-top: 10%;
+        max-height: 50%;
+
+    }
+
+    #texto-tutorial {
+        margin-top: 10%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #clique-tutorial {
+        margin-top: 10%;
+        width: 100%;
+        font-weight: bold;
+        letter-spacing: 6px;
+    }
+
+    #icones-tutorial {
+        margin-top: 5%;
+    }
+
+    #loader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(29, 29, 29);
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+    }
+
+    #loader img {
+        width: 70%;
+    }
+
+    #loader p {
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 50px;
+        font-weight: 400;
+        font-family: 'Raleway-Variable', sans-serif;
+        /* Usando a fonte recém-definida */
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #popup {
+        display: none;
+        background-color: rgb(255, 255, 255);
+        width: 40vw;
+        height: 65vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+    }
+
+    #popup-overlay {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 100vw;
+        height: 100vh;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+    }
+
+    #popup-img {
+        display: block;
+    }
+
+    .popup-img-horizontal {
+        display: block;
+        width: 60%;
+        height: auto;
+    }
+
+    .popup-img-vertical {
+        display: block;
+        height: 60%;
+        width: auto;
+    }
+
+    #popup-overlay-img {
+        display: block;
+        top: 50%;
+    }
+
+    .overlay-vertical {
+        height: 95%;
+    }
+
+    .overlay-horizontal {
+        width: 60%;
+    }
+
+    #popup-texto {
+        font-size: 13px;
+    }
+
+    .botao-popup {
+        background-color: #000000;
+        color: #ffffff;
+        height: 20px;
+        width: 80px;
+        font-weight: bold;
+        font-size: 11PX;
+        text-align: center;
+    }
+
+    .oculto {
+        display: none;
+    }
+
+    #galeria {
+        display: none;
+        background-color: rgb(255, 255, 255);
+        width: 40vw;
+        height: 65vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+    }
+
+    .galeria-img-horizontal {
+        display: block;
+        max-width: 80%;
+        height: 60%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .galeria-img-vertical {
+        max-width: 80%;
+        height: 80%;
+        display: block;
+        width: auto;
+        max-height: 90%;
+    }
+
+    #galeria-video {
+        display: block;
+        height: 60%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    #galeria-texto {
+        font-size: 13px;
+    }
+
+    #galeria-titulo {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+
+    #popup-titulo {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 3%;
+    }
+
+    .horizontal {
+        padding-left: 20%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .vertical {
+        padding-left: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vertical #texto {
+        padding-left: 11%;
+        padding-right: 11%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .horizontal #texto {
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: left;
+        align-items: left;
+    }
+
+    .vertical #base-galeria {
+        padding-left: 11%;
+        padding-right: 11%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .horizontal #base-galeria {
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: left;
+        align-items: left;
+    }
+
+    .horizontal p {
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: left;
+    }
+
+    .horizontal h1 {
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: left;
+    }
+
+    .horizontal img {
+        margin-left: 5%;
+    }
+
+    #tela-inicio {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../assets/UI/inicio/background-inicio.png');
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 5px;
+        top: 50vh;
+        left: 50vw;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        pointer-events: auto;
+    }
+
+    #logo {
+        display: block;
+        height: 20%;
+    }
+
+    #tela-tutorial {
+        display: none;
+        background-size: cover;
+        width: 60vw;
+        height: 65vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+        pointer-events: auto;
+    }
+
+    #tela-tutorial-2 {
+        display: none;
+        background-size: cover;
+        width: 60vw;
+        height: 65vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 50px;
+        pointer-events: auto;
+    }
+
+    #texto-tutorial {
+        margin-top: 10%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #texto-intro {
+        padding-left: 37%;
+        padding-right: 37%;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #clique-tutorial {
+        margin-top: 10%;
+        width: 30%;
+    }
+
+    #icones-tutorial {
+        margin-top: 10%;
+    }
+
+    #icones-tutorial img {
+        width: 15%;
+        /* Ajuste o tamanho conforme necessário */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        margin-left: 2%;
+        /* Espaçamento entre as imagens */
+        margin-right: 2%;
+    }
+
+
+    #logo-loja {
+        height: 50px;
+    }
+
+    #versao {
+        position: absolute;
+        bottom: 10px;
+        /* Define a distância do fundo */
+        left: 10px;
+        /* Define a distância da esquerda */
+        color: #ffffff;
+        /* Cor do texto */
+    }
+
+    .fixed-buttons {
+        position: fixed;
+        top: 1%;
+        display: flex;
+      }
+      .fixed-buttons-2 {
+        position: fixed;
+        bottom: 1%;
+        display: flex;
+      }
+
+      #logo-versao {
+        position: fixed;
+        bottom: 1%;
+        right: 1%;
+    }
+
+    #botaoTocarMutar {
+        width: 120px;
+        height: 60px;
+    }
+
+    #botaoInfoMusica {
+        width: 60px;
+        height: 60px;
+        margin-left: 8px; /* Espaço entre os botões */
+    }
+
+    #botaoGiro {
+        width: 200px;
+        height: 60px;
+        margin-left: 8px; /* Espaço entre os botões */
+    }
+
+    #botaoAjuda {
+        width: 60px;
+        height: 60px;
+        margin-left: 8px; /* Espaço entre os botões */
+    }
+
+    #infoMusica {
+        margin-left: 5%;
+        display: none;
+        box-shadow: 0 0 10px rgba(71, 71, 71, 0.2);
+        border-radius: 10px;
+        width: 170px;
+        height: 100px;
+        margin-top: 35%;
+        text-align: left;
+    }
+
+    #infoMusicaTexto {
+        margin-top: 7%;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+
+    .btn-direito {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        width: 19px;
+        /* Largura do ícone */
+        height: 33px;
+        /* Altura do ícone */
+        background-image: url('../assets/UI/seta.png');
+        /* Caminho para sua imagem de ícone */
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .btn-esquerdo {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 19px;
+        /* Largura do ícone */
+        height: 33px;
+        /* Altura do ícone */
+        background-image: url('../assets/UI/seta.png');
+        /* Caminho para sua imagem de ícone */
+        background-size: cover;
+        cursor: pointer;
+        transform: rotate(180deg);
+    }
+
+    #tela-tutorial {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        max-width: 43vw;
+        max-height: 65vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 8%;
+        background-color: rgba(255, 255, 255, 1);
+        pointer-events: auto;
+    }
+
+    #tela-tutorial-2 {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        max-width: 43vw;
+        max-height: 65vh;
+        border-radius: 20px;
+        left: 50%;
+        top: 50%;
+        padding: 5%;
+        background-color: rgba(255, 255, 255, 1);
+        pointer-events: auto;
+    }
+
+    #logo-tutorial {
+        margin-top: 10%;
+        max-width: 80%;
+        max-height: 60%;
+
+    }
+
+    #logo-tutorial-2 {
+        margin-top: 10%;
+        max-width: 80%;
+        max-height: 90%;
+
+    }
+
+    #texto-tutorial {
+        margin-top: 10%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #texto-intro {
+        margin-top: 3%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #clique-tutorial {
+        margin-top: 10%;
+        width: 100%;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    #icones-tutorial {
+        margin-top: 5%;
+    }
+
+    #loader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(29, 29, 29);
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+    }
+
+    #loader img {
+        width: 50%;
+    }
+
+    #loader p {
+        color: #ffffff;
+        font-size: 25px;
+        margin-top: 40px;
+        font-weight: bold;
+        font-family: 'Raleway-Variable', sans-serif;
+        /* Usando a fonte recém-definida */
+    }
+
+}
+
+#btn-inicio {
+    margin-top: 2%;
+    width: 130px;
+    height: 35px;
+    border-radius: 25px;
+    border-color: #ffffff;
+    background-color: transparent;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 7px;
+}
+
+#btn-inicio:hover {
+    margin-top: 2%;
+    width: 130px;
+    height: 35px;
+    border-radius: 25px;
+    border-color: #000000;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-size: 600;
+    color: #000000;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+#btn-tutorial {
+    z-index: 3;
+    margin-top: 2%;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #000000;
+    background-color: transparent;
+    font-size: 13px;
+    color: #000000;
+    cursor: pointer;
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+
+#botaoTocarMutar {
+
+    pointer-events: auto;
+    border: none;
+}
+
+#botaoInfoMusica {
+
+    pointer-events: auto;
+    border: none;
+}
+
+#botaoGiro {
+    pointer-events: auto;
+    border: none;
+}
+
+#botaoAjuda {
+    pointer-events: auto;
+    border: none;
+}
+
