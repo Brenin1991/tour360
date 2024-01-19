@@ -620,7 +620,7 @@ a-scene {
         left: 10px;
       }
 
-      #logo-versao {
+      .logo-versao-class {
         position: absolute;
         bottom: 1%;
         right: 1%;
@@ -1071,7 +1071,7 @@ a-scene {
         display: flex;
       }
 
-      #logo-versao {
+      .logo-versao-class {
         position: fixed;
         bottom: 1%;
         right: 1%;
