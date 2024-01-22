@@ -72,7 +72,6 @@ body {
   
 .fixed-buttons-2 {
     position: absolute;
-    bottom: 10px;
     display: flex;
     left: 10px;
     }
@@ -116,7 +115,7 @@ body {
 }
 
 #container {
-    position: relative;
+    position: absolute;
 }
 
 .closePopupDiv {
@@ -1310,6 +1309,6 @@ a-scene {
 }
 
 .androidButtons {
-    bottom: 15%;
+    bottom: 8vh !important;
 }
 
